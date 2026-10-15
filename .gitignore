@@ -1,0 +1,50 @@
+
+# ==========================================
+# EcoSift Arena - tvOS Git Ignore
+# SE4041 MADD Assignment 02 - Part B
+# ==========================================
+
+# macOS temporary files
+.DS_Store
+._*
+__MACOSX/
+.Spotlight-V100
+.Trashes
+
+# Xcode user settings
+xcuserdata/
+*.xcuserstate
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Xcode build files
+DerivedData/
+build/
+Build/
+*.app
+*.ipa
+*.xcarchive
+*.xcresult
+
+# Xcode source control metadata
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Editor configuration
+.idea/
+.vscode/
+
+# Local environment files
+.env
+.env.local
